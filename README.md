@@ -1,5 +1,4 @@
-# 
-Reasoning Guided Embeddings: Leveraging MLLM Reasoning for Improved Multimodal Retrieval
+# Reasoning Guided Embeddings: Leveraging MLLM Reasoning for Improved Multimodal Retrieval
 
 <p align="center">
       <a href="https://scholar.google.com.hk/citations?user=dvUKnKEAAAAJ&hl=en" target='_blank'>Chunxu Liu</a>,&nbsp;
@@ -19,7 +18,7 @@ Reasoning Guided Embeddings: Leveraging MLLM Reasoning for Improved Multimodal R
     <img src="https://img.shields.io/badge/Paper-📕-red">
   </a> 
   <a href="https://huggingface.co/lcxrocks/RGE" target='_blank'>
-    <img src="https://img.shields.io/badge/Dataset Page-🤗-yellow">
+    <img src="https://img.shields.io/badge/Model-🤗-yellow">
   </a>
 </p>
 
