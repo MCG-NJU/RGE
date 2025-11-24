@@ -1,0 +1,129 @@
+# Classification
+ImageNet_1K:
+  original: "Represent the given image for classification"
+  replacement: "Identify the category of the main object in the given image for classification"
+N24News:
+  original: "Represent the given news image with the following caption for domain classification"
+  replacement: "Identify the category of the given news with the following caption for domain classification"
+HatefulMemes:
+  original: "Represent the given image for binary classification to determine whether it constitutes hateful speech or not"
+  replacement: "Determine whether the given image contains hateful speech or not for binary classification"
+VOC2007:
+  original: "Identify the object shown in the image"
+  replacement: "Identify the category of the main object in the given image for classification"
+SUN397:
+  original: "Identify the scene shown in the image"
+  replacement: "Identify the category of the scene in the given image for classification"
+
+# VQA
+ChartQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer a chart-related question based on the given image:"
+DocVQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer a document-related question based on the given image:"
+InfographicsVQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer an infographic-related question based on the given image:"
+OK-VQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer the question based on the given image:"
+A-OKVQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer the question based on the given image:"
+Visual7W:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer the question based on the given image:"
+
+# Retrieval
+VisDial:
+  original: "Represent the given dialogue about an image, which is used for image retrieval"
+  replacement: "Describe and represent the following dialogue about an image for image retrieval"
+CIRR:
+  original: "Given an image, find a similar everyday image with the described changes"
+  replacement: "Describe and represent the above image and the following described changes about the given image for composed image retrieval"
+VisualNews_t2i:
+  original: "Retrieve an image of this news caption"
+  replacement: "Describe and represent the following news caption for news photo retrieval"
+VisualNews_i2t:
+  original: "Find a caption for the news in the given photo"
+  replacement: "Describe and represent the above image for news caption retrieval"
+MSCOCO_t2i:
+  original: "Find me an everyday image that matches the given caption"
+  replacement: "Describe and represent the following image caption for everyday image retrieval"
+MSCOCO_i2t:
+  original: "Find an image caption describing the given everyday image"
+  replacement: "Describe and represent the above everyday image for a corresponding image caption retrieval"
+NIGHTS:
+  original: "Find a day-to-day image that looks similar to the provided image"
+  replacement: "Describe and represent the above day-to-day image for a similar image retrieval"
+WebQA:
+  original: "Find a Wikipedia image that answers this question"
+  replacement: "Answer and represent the following question for a Wikipedia image retrieval"
+
+# Grounding
+MSCOCO:
+  original: "Select the portion of the image that isolates the object labeled as"
+  replacement: "Describe and focus on the object in the image labeled as"
+
+## OOD datasets
+# Classification
+Place365:
+  original: "Identify the scene shown in the image"
+  replacement: "Identify the category of the scene in the given image for classification"
+ImageNet-A:
+  original: "Represent the given image for classification"
+  replacement: "Identify the category of the main object in the given image for classification"
+ImageNet-R:
+  original: "Represent the given image for classification"
+  replacement: "Identify the category of the main object in the given image for classification"
+ObjectNet:
+  original: "Identify the object shown in the image"
+  replacement: "Identify the category of the main object in the given image for classification"
+Country211:
+  original: "Identify the country depicted in the image"
+  replacement: "Identify the category of the country depicted in the given image for classification"
+
+# VQA
+ScienceQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer a science-related question based on the given image:"
+VizWiz:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer a question based on the given image:"
+GQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer a question based on the given image:"
+TextVQA:
+  original: "Represent the given image with the following question:"
+  replacement: "Answer a question based on the given image:"
+
+# Retrieval
+OVEN:
+  original: "Retrieve a Wikipedia image-description pair that provides evidence for the question of this image"
+  replacement: "Describe and represent the above image and the following question for a Wikipedia image-description pair retrieval"
+FashionIQ:
+  original: "Find an image to match the fashion image and style note"
+  replacement: "Describe and represent the above fashion image and the following described modification on style note for a fashion image retrieval"
+EDIS:
+  original: "Find a news image that matches the provided caption"
+  replacement: "Describe and represent the following provided caption for a news image retrieval"
+Wiki-SS-NQ:
+  original: "Find the document image that can answer the given query"
+  replacement: "Describe and represent the following query for a document image retrieval"
+
+# Visual Grounding
+Visual7W-Pointing:
+  original: "Select the portion of the image that answers the question"
+  replacement: "Describe and focus on the object in the image that answers the following question"
+RefCOCO:
+  original: "Select the portion of the image that follows the language expressions"
+  replacement: "Describe and focus on the object in the image that follows the following language expressions"
+RefCOCO-Matching:
+  original: "Select the portion of the image that follows the language expressions"
+  replacement: "Describe and focus on the object in the image that follows the following language expressions"
+
+# For training-testing inconsistency:
+ImageNet-1K:
+  original: "Represent the given image for classification"
+  replacement: "Identify the category of the main object in the given image for classification"

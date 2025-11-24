@@ -1,0 +1,108 @@
+# Classification
+ImageNet_1K:
+  prefix_add: "Summarize the following object category in one word: "
+N24News:
+  prefix_add: "Summarize the following news category in one word: "
+HatefulMemes:
+  value_map:
+    "Yes": "Summarize the following statement in one word: Yes, it contains hateful speech."
+    "No": "Summarize the following statement in one word: No, it does not contain hateful speech."
+VOC2007:
+  prefix_add: "Summarize the following object category in one word: "
+SUN397:
+  prefix_add: "Summarize the following scene category in one word: "
+
+# VQA
+ChartQA:
+  prefix_add: "Summarize the following answer in one word: "
+DocVQA:
+  prefix_add: "Summarize the following answer in one word: "
+InfographicsVQA:
+  prefix_add: "Summarize the following answer in one word: "
+OK-VQA:
+  prefix_add: "Summarize the following answer in one word: "
+A-OKVQA:
+  prefix_add: "Summarize the following answer in one word: "
+Visual7W:
+  prefix_add: "Summarize the following answer in one word: "
+
+# Retrieval
+VisDial:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+CIRR:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+VisualNews_t2i:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+VisualNews_i2t:
+  prefix_add: "Summarize the following news caption in one word: "
+MSCOCO_t2i:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+MSCOCO_i2t:
+  prefix_add: "Summarize the following sentence in one word: "
+NIGHTS:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+WebQA:
+  original: "Represent the given Wikipedia image with related text information"
+  replacement: "Summarize the given Wikipedia image with the following related text information in one word"
+
+# Grounding
+MSCOCO:
+  original: "Represent the given cropped image of the object"
+  replacement: "Summarize the given cropped image of the object in one word"
+
+## OOD datasets
+# Classification
+Place365:
+  prefix_add: "Summarize the following scene category in one word: "
+ImageNet-A:
+  prefix_add: "Summarize the following object category in one word: "
+ImageNet-R:
+  prefix_add: "Summarize the following object category in one word: "
+ObjectNet:
+  prefix_add: "Summarize the following object category in one word: "
+Country211:
+  prefix_add: "Summarize the following country category in one word: "
+
+# VQA
+ScienceQA:
+  prefix_add: "Summarize the following answer in one word: "
+VizWiz:
+  prefix_add: "Summarize the following answer in one word: "
+GQA:
+  prefix_add: "Summarize the following answer in one word: "
+TextVQA:
+  prefix_add: "Summarize the following answer in one word: "
+
+# Retrieval
+OVEN:
+  original: "Represent the given Wikipedia image with related text information"
+  replacement: "Summarize the given Wikipedia image with the following related text information in one word"
+FashionIQ:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+EDIS:
+  original: "Represent the given image with related text information"
+  replacement: "Summarize the given image with the following related text information in one word"
+Wiki-SS-NQ:
+  original: "Represent the given image"
+  replacement: "Summarize the given image in one word"
+
+# Visual Grounding
+Visual7W-Pointing:
+  original: "Represent the given cropped image of the object"
+  replacement: "Summarize the given cropped image of the object in one word"
+RefCOCO:
+  original: "Represent the given cropped image of the object"
+  replacement: "Summarize the given cropped image of the object in one word"
+RefCOCO-Matching:
+  original: "Select the portion of the image that follows the language expressions"
+  replacement: "Describe and focus on the object in the image that follows the following language expressions"
+
+# For training-testing inconsistency:
+ImageNet-1K:
+  prefix_add: "Summarize the following object category in one word: "
