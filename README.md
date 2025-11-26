@@ -1,5 +1,4 @@
-# Reasoning Guided Embeddings: Leveraging MLLM Reasoning for Improved Multimodal Retrieval
-
+<h2 align="center">Reasoning Guided Embeddings: Leveraging MLLM Reasoning <br> for Improved Multimodal Retrieval</h2>
 <p align="center">
       <a href="https://scholar.google.com.hk/citations?user=dvUKnKEAAAAJ&hl=en" target='_blank'>Chunxu Liu</a>,&nbsp;
       <a>Jiyuan Yang</a>,&nbsp;
