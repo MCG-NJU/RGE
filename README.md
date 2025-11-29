@@ -1,5 +1,4 @@
-# Reasoning Guided Embeddings: Leveraging MLLM Reasoning for Improved Multimodal Retrieval
-
+<h2 align="center">Reasoning Guided Embeddings: Leveraging MLLM Reasoning <br> for Improved Multimodal Retrieval</h2>
 <p align="center">
       <a href="https://scholar.google.com.hk/citations?user=dvUKnKEAAAAJ&hl=en" target='_blank'>Chunxu Liu</a>,&nbsp;
       <a>Jiyuan Yang</a>,&nbsp;
@@ -17,7 +16,7 @@
   <a href="https://arxiv.org/abs/2511.16150" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-📕-red">
   </a> 
-  <a href="https://huggingface.co/lcxrocks/RGE" target='_blank'>
+  <a href="https://huggingface.co/MCG-NJU/RGE" target='_blank'>
     <img src="https://img.shields.io/badge/Model-🤗-yellow">
   </a>
 </p>
@@ -48,10 +47,10 @@ huggingface-cli download --repo-type dataset --resume-download TIGER-Lab/MMEB-ev
 
 
 ## Evaluation
-To evaluate the model, please first download [MMEB evaluation dataset](https://huggingface.co/datasets/TIGER-Lab/MMEB-eval/) and our model at [🤗hugginface pretrained model](https://huggingface.co/lcxrocks/RGE/):
+To evaluate the model, please first download [MMEB evaluation dataset](https://huggingface.co/datasets/TIGER-Lab/MMEB-eval/) and our model at [🤗hugginface pretrained model](https://huggingface.co/MCG-NJU/RGE/):
 
 ```commandline
-huggingface-cli download --resume-download lcrocks/RGE --local-dir ./models/RGE
+huggingface-cli download --resume-download MCG-NJU/RGE --local-dir ./models/RGE
 huggingface-cli download --repo-type dataset --resume-download TIGER-Lab/MMEB-eval --local-dir ./datasets/MMEB-eval
 ```
 

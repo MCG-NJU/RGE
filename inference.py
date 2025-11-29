@@ -57,8 +57,8 @@ def ar_encode(model, processor, inputs: dict):
     pooled_output = _ar_pooling(inputs['input_ids'], outputs.hidden_states[-1])
     return pooled_output
         
-model_name = "lcxrocks/RGE"
-processor_name = "lcxrocks/RGE"
+model_name = "MCG-NJU/RGE"
+processor_name = "MCG-NJU/RGE"
 
 # Load Processor and Model
 processor = AutoProcessor.from_pretrained(processor_name)
